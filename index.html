@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Review Kuliner: Mie Gacoan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #fff8f0;
+      color: #333;
+      line-height: 1.7;
+      font-size: 1rem;
+      padding: 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header img {
+      max-width: 120px;
+      border-radius: 15px;
+      margin-bottom: 0.8rem;
+      box-shadow: 0 4px 10px rgba(255, 77, 77, 0.5);
+    }
+
+    header h1 {
+      color: #d72f2f;
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-style: italic;
+      color: #666;
+      font-size: 1rem;
+    }
+
+    main {
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+    }
+
+    h2.section-title {
+      text-align: center;
+      color: #d72f2f;
+      margin-bottom: 1.2rem;
+      border-bottom: 2px solid #ffd3d3;
+      padding-bottom: 0.5rem;
+      font-size: 1.6rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 1.5rem;
+      padding-left: 0.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      color: #999;
+      font-size: 0.9rem;
+      padding: 1rem 0;
+      border-top: 1px solid #eee;
+    }
+
+    /* Dashboard */
+    #dashboard {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    .dashboard-item {
+      flex: 1 1 300px;
+      background: #ffe6e6;
+      border-radius: 15px;
+      padding: 1rem;
+      box-shadow: 0 4px 8px rgba(215, 47, 47, 0.2);
+    }
+
+    .dashboard-item h3 {
+      text-align: center;
+      margin-bottom: 0.8rem;
+      color: #b82e2e;
+      font-size: 1.2rem;
+    }
+
+    .dashboard-item img,
+    main img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      max-height: 220px;
+    }
+
+    .dashboard-item video {
+      width: 100%;
+      border-radius: 15px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    main img {
+      max-height: 400px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+      #dashboard {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://3dmdb.com/previews/13037200.jpg" alt="Logo Mie Gacoan" />
+  <h1>Review Kuliner: Mie Gacoan</h1>
+  <p>Rasakan sensasi pedas yang bikin ketagihan!</p>
+</header>
+
+<!-- Dashboard -->
+<section id="dashboard">
+  <div class="dashboard-item">
+    <h3>Foto Mie Gacoan</h3>
+    <img src="foto1.jpg" alt="Foto Mie Gacoan" />
+  </div>
+  <div class="dashboard-item">
+    <h3>Video Review</h3>
+    <video controls>
+      <source src="video.mp4" type="video/mp4" />
+      <source src="video3.mp4" type="video/mp4" />
+      Browser Anda tidak mendukung pemutar video.
+    </video>
+  </div>
+</section>
+
+<main>
+  <section>
+    <h2 class="section-title">Tentang Mie Gacoan</h2>
+    <p>Mie Gacoan merupakan tempat makan mie pedas yang sedang naik daun di berbagai kota Indonesia. Dengan tingkat kepedasan dari level 0 hingga 8, pengunjung bebas memilih sesuai selera. Rasanya nendang dan cocok buat kamu pencinta kuliner ekstrem!</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Menu Favorit</h2>
+    <ul>
+      <li>Mie Gacoan (Level 0–8)</li>
+      <li>Mie Hompimpa</li>
+      <li>Udang Keju</li>
+      <li>Bola Bola Rambutan</li>
+      <li>Siomay & Lumpia Udang</li>
+      <li>Minuman: Es Teh, Es Jeruk, Green Tea, Thai Tea</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Review Singkat</h2>
+    <p><strong>Rasa:</strong> Pedasnya pas, bikin nagih tapi tetap bersahabat di lidah.</p>
+    <p><strong>Porsi:</strong> Cukup banyak dan memuaskan.</p>
+    <p><strong>Harga:</strong> Ramah di kantong. Mulai dari Rp10.000 untuk makanan dan Rp5.000 untuk minuman.</p>
+    <p><strong>Tempat:</strong> Sederhana, nyaman, cocok buat nongkrong santai bareng teman.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Kenapa Harus Coba?</h2>
+    <ul>
+      <li>Bisa pilih level pedas sesuai selera.</li>
+      <li>Bumbu khas bikin lidah bergoyang.</li>
+      <li>Harga terjangkau untuk semua kalangan, termasuk pelajar.</li>
+      <li>Menu camilan pendamping yang menggoda.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Review Kuliner Mie Gacoan | Tugas Multimedia
+</footer>
+
+</body>
+</html>
